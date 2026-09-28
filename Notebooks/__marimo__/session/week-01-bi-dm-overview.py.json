@@ -1,0 +1,96 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.0",
+    "script_metadata_hash": "7e4d0c96e0906b43312905e4f4476070"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "8085ad9a590dc794f948049248712285",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "5a7e2e93a051fac6e7fe620327a9486c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"week-1-companion-notebook-first-contact-with-marimo\">Week 1 companion notebook \u2014 first contact with marimo</h1>\n<span class=\"paragraph\">This is your first marimo notebook. Before you build anything for your\nproject, take two minutes to understand <strong>what you are looking at</strong>:</span>\n<ul>\n<li>A marimo notebook is a single <strong><code>.py</code> file</strong> \u2014 plain Python, so it lives\n  happily in Git and runs from top to bottom.</li>\n<li>The page is made of <strong>cells</strong>. Each cell is one block of code, and marimo\n  works out the dependencies between them automatically (the \"reactive\"\n  part). Change one cell, and every cell that depends on it recomputes \u2014\n  there is no hidden state like a Jupyter kernel can develop.</li>\n<li>Narrative goes in <code>mo.md(...)</code> cells; a result is simply the final\n  expression of a code cell.</li>\n</ul>\n<span class=\"paragraph\">This week we meet the module's running example, <strong>Streamline Media</strong>, a\nfictional UK streaming service whose BI team wants to predict subscriber\nchurn. No analysis yet \u2014 we generate the data, look at it, and frame the\nbusiness problem.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "3a335f8626da4d5d585fbdaeb92164eb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"how-to-run-this-notebook\">How to run this notebook</h3>\n<span class=\"paragraph\">From the module materials folder:</span>\n<div class=\"language-bash codehilite\"><pre><span></span><code>uv<span class=\"w\"> </span>run<span class=\"w\"> </span>notebooks/week-01-bi-dm-overview.py<span class=\"w\">          </span><span class=\"c1\"># run headless</span>\nuvx<span class=\"w\"> </span>marimo<span class=\"w\"> </span>edit<span class=\"w\"> </span>notebooks/week-01-bi-dm-overview.py<span class=\"w\"> </span><span class=\"c1\"># explore interactively</span>\n</code></pre></div>\n<span class=\"paragraph\"><code>uv run</code> executes the notebook as a script (no browser). <code>uvx marimo\nedit</code> opens it in the editor where you can see reactivity live. Try\nmoving the slider below and watch the cells that depend on it recompute.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "653c39a05f11592e4b9a60d9850d141b",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "2ab4f240459ed7d2007d2b042b2477d3",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "d3597909add047128e8cfa4cfde5d199",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "f419667f472a8d81b272faa90e32cacd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "992966613dda54474e4e0e8274130d64",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "b38689a9a07c34b2b972f1c66349e272",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "9f1b9bfb762042b78da5a0f98f2c7ec7",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "bfb7bfcaf9182ef2aee31e5213eba97c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"your-turn-section-1-of-the-main-notebook\">Your turn: section 1 of the main notebook</h2>\n<span class=\"paragraph\">This companion notebook is a <strong>working notebook</strong> \u2014 scratch space, never\nsubmitted. Your group's real work lives in the <strong>main notebook</strong>, which you\nstart this week. Open it and write <strong>section 1 \u2014 Project overview</strong> as\nnarrative:</span>\n<ul>\n<li>a <strong>problem statement</strong>: what business problem are you investigating, and\n  why does it matter?</li>\n<li><strong>domain context</strong>: the industry, the decision it supports, and who\n  benefits</li>\n<li><strong>group members</strong> and roles</li>\n<li>your <strong>initial research questions</strong> (2\u20133, not yet answered)</li>\n<li>your <strong>first literature search terms</strong></li>\n<li>the <strong>candidate datasets you scouted</strong> (2\u20133 shortlisted, to be fully\n  audited in week 4)</li>\n</ul>\n<span class=\"paragraph\">Everything you assert here will be challenged in a viva \u2014 so build the habit\nfrom day one: no claim without a source you have actually read.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
